@@ -1,0 +1,127 @@
+/* Header Component Css */
+
+.container-fluid{
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+}
+.me-auto{
+  float: right;
+}
+/* Backgroun image css */
+.bg_image{
+  background-image: url("C:\Users\user\Desktop\Hobot_task\hobot-app\public\images\bg.jpg");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.input_tag{
+  margin: 10px auto;
+}
+.text_center{
+  padding: 60px;
+}
+.custom-btn {
+  width: 200px;
+  margin: 10px;
+  
+}
+.sec_div_padd {
+  padding: 70px;
+}
+.video_tag{
+  padding: 30px;
+  width: 100% !important;
+}
+.bg_dark_container{
+  padding: 40px 20px;
+}
+.buyer{
+  color: white;
+  margin: 30px auto;
+  font-size: 30px;
+}
+.suppliers{
+  display: flex;
+}
+.text{
+  font-size: 15px;
+}
+ .buy{
+  text-decoration: underline;
+  color: green;
+} 
+.padding_div {
+  padding: 30px;
+  display: flex;
+}
+.main_div {
+  margin: 43px;
+}
+.padd_div {
+  padding: 50px;
+  margin-right: 50px;
+}
+.row {
+  margin-right: calc(-.5* var(--bs-gutter-x));
+}
+.margin{
+  margin: 20px auto;
+}
+.center_text{
+  text-align: center;
+  padding: 40px;
+}
+.text_paddings{
+  padding: 20px;
+}
+p.user_text {
+  padding: 20px;
+}
+.footer_container{
+  background-color: black;
+  height: auto;
+  width: 100%;
+}
+.footer_div{
+  display: flex;
+}
+ .hobot_footer{
+  width: 80px;
+  height: 50px;
+  
+ }
+ .foot{
+  border-top: 2px solid white;
+ }
+ .company_div {
+  margin: 20px auto;
+}
+.company_div2{
+  margin: 40px auto;
+  
+}
+.text_color {
+  color: white;
+}
+.linkein{
+  padding: 20px;
+  color: white;
+}
+
+@media screen and max-width(768px) {
+  .vic_width {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px auto;
+}
+
+iframe.video_tag {
+  width: 100% !important;
+}
+}
