@@ -13,7 +13,7 @@
 }
 /* Backgroun image css */
 .bg_image{
-  background-image: url("C:\Users\user\Desktop\Hobot_task\hobot-app\public\images\bg.jpg");
+  background-image: url("../public/images/bg.jpg");
   width: 100%;
   height: 600px;
   background-repeat: no-repeat;
